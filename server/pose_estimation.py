@@ -19,7 +19,8 @@ import matplotlib.pyplot as plt
 import blynklib
 
 threshold=45
-token='2w36TnckERRPKCxIzezteRbT-u0vg91n'
+with open('authtoken.txt','r') as f:
+    token=f.read()
 blynk = blynklib.Blynk(token)
 
 with open('human_pose.json', 'r') as f:
