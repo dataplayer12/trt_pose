@@ -52,7 +52,7 @@ To install trt_pose, call this command
 ```bash
 sudo pip3 install tqdm cython pycocotools
 sudo apt-get install python3-matplotlib
-git clone https://github.com/NVIDIA-AI-IOT/trt_pose
+git clone https://github.com/dataplayer12/trt_pose.git
 cd trt_pose
 sudo python3 setup.py install
 ```
